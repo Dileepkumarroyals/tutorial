@@ -22,8 +22,8 @@ while chances>0:
                 bulls +=1
             elif user[i] in num:
                 cows +=1
-            print("you have",cows,"Cows and",bulls,"Bulls.")
-            cows = 0
-            bulls = 0
-            chances -= 1
+    print("you have",cows,"Cows and",bulls,"Bulls.")
+    cows = 0
+    bulls = 0
+    chances -= 1
 print("The correct answer is :",num)
